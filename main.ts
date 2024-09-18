@@ -29,5 +29,3 @@ try {
     process.exitCode = 1;
 }
 
-//2997617
-//7536598316:AAGfyNGOdpogkIagbXxx2KM7xAiIMSoIhh0
