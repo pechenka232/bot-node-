@@ -12,7 +12,7 @@ try {
     });
 
     client.watchContractEvent({
-        address: "0xa0c709229c0bED1Ffb2801D9a250db8aFb5c92cC",
+        address: "",
         abi: bankAbi,        onLogs: (logs) => {
             const messages = logs.map(
                 ({ eventName, args }) => `<b>${eventName}</b> <code>${args["account"]}</code> ${formatEther(args["amount"])}`
